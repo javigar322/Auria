@@ -13,8 +13,11 @@ egui = "0.33.3"
 catppuccin-egui = { version = "5.7.0", default-features = false, features = ["egui33"] }
 egui-notify = "0.21.0"
 tokio = { version = "1.48.0", features = ["full"] }
-egui-shadcn = { git = "https://github.com/FerrisMind/shadcn-rs", package = "egui-shadcn" }
-
+dotenv = "0.15.0"
+reqwest = { version = "0.13.1", features = ["json", "query"] }
+serde_json = "1.0.148"
+serde = "1.0.228"
+egui-async = "0.2.6"
 
 [profile.release]
 opt-level = "z"     # Optimizar por tamaño

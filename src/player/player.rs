@@ -1,5 +1,5 @@
 use anyhow::Result;
-use rodio::{Decoder, Sink};
+use rodio::Decoder;
 use sha2::{Digest, Sha256};
 use std::fs;
 use std::path::PathBuf;
